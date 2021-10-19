@@ -1,0 +1,21 @@
+{
+    "name": "arikaim/parsers-module",
+    "description": "Arikam Parsers Module",
+    "keywords": ["Module","Parsers","Arikaim Parsers module"],
+    "type": "arikaim-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Konstantin Atanasov",
+        "email": "info@arikaim.com",
+        "homepage": "http://arikaim.com"
+    }],
+    "require": {
+        "php": ">=7.2.5",
+        "arikaim/installer": "*",
+        "tijsverkoyen/css-to-inline-styles": "^2.2.0",
+        "symfony/css-selector": "5.2.10"       
+    },
+    "extra": {     
+        "path": "parsers"
+    }
+}

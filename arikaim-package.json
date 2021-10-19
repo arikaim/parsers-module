@@ -1,0 +1,16 @@
+{
+    "title": "Parsers",
+    "name": "parsers",
+    "package-type": "module",
+    "version": "1.0.0",
+    "class": "Parsers",
+    "type": "package",
+    "description": "Html, css parsers.",
+    "repository": "https://github.com/arikaim/parsers-module.git",
+    "require": {
+        "composer": [
+            "tijsverkoyen/css-to-inline-styles",
+            "symfony/css-selector"           
+        ]
+    }  
+}
