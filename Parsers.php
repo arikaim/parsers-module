@@ -23,5 +23,7 @@ class Parsers extends Module
      */
     public function install()
     {        
+        // service
+        $this->registerService('CssInline');
     }
 }
