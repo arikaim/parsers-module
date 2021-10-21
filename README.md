@@ -11,7 +11,5 @@ Html, Css parsers
 #### Installation
 
 ```sh
-
 composer require arikaim/parsers-module
-
 ```

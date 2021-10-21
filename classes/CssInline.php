@@ -11,10 +11,12 @@ namespace Arikaim\Modules\Parsers\Classes;
 
 use \TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 
+use Arikaim\Core\Interfaces\EmailCompilerInterface;
+
 /**
  * CssInline service class
 */
-class CssInline
+class CssInline implements EmailCompilerInterface
 {
     /**
      * Css inliner
@@ -32,7 +34,7 @@ class CssInline
     }
 
     /**
-     * Inline css styles
+     * Compile email html code
      *
      * @param string $htmlCode
      * @param string $cssCode
@@ -40,6 +42,6 @@ class CssInline
      */
     public function compile(string $htmlCode, string $cssCode): string
     {
-        return  $this->inliner->convert($htmlCode,$cssCode);
+        return $this->inliner->convert($htmlCode,$cssCode);
     }
 }
