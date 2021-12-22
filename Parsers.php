@@ -9,6 +9,7 @@
 */
 namespace Arikaim\Modules\Parsers;
 
+use Symfony\Component\DomCrawler\Crawler;
 use Arikaim\Core\Extension\Module;
 
 /**
@@ -24,4 +25,15 @@ class Parsers extends Module
     public function install()
     {        
     }
+
+    /**
+     * Create html document
+     *
+     * @param string $html
+     * @return Crawler
+     */
+    public static function createHtmlDocument(string $html)
+    {
+        return new Crawler($html);
+    } 
 }
