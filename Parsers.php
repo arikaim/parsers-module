@@ -32,7 +32,7 @@ class Parsers extends Module
      * @param string $html
      * @return Crawler
      */
-    public static function createHtmlDocument(string $html)
+    public static function createHtmlDocument(string $html): object
     {
         return new Crawler($html);
     } 
