@@ -2,7 +2,7 @@
     "title": "Parsers",
     "name": "parsers",
     "package-type": "module",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "class": "Parsers",
     "type": "package",
     "description": "Html, css parsers.",

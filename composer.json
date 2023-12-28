@@ -14,7 +14,8 @@
         "tijsverkoyen/css-to-inline-styles": "^2.2.0",      
         "symfony/dom-crawler": "^6.3.0",
         "symfony/css-selector": "^5.4.0",
-        "nicoswd/php-rule-parser": "^0.6.0"       
+        "nicoswd/php-rule-parser": "^0.6.0",
+        "league/csv": "9.8.0"       
     },
     "extra": {     
         "path": "parsers"
